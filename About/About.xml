@@ -2,7 +2,11 @@
 <ModMetaData>
   <name>Job Splitter</name>
   <author>Fuglypump</author>
-  <targetVersion>0.19.1987</targetVersion>
+  <packageId>Fuglypump.JobSplitter</packageId>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+  </supportedVersions>
   <description>Job Splitter
 
 Yet another mod that splits up jobs into smaller jobs for the sake of micromanaging everything. 
