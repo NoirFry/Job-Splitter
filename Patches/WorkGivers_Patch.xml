@@ -23,8 +23,24 @@
 			<workType>Surgeon</workType>
 		</value>
 	</Operation>
-	
-	<!-- Rearming -->
+
+  <!-- Surgeon -->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/WorkGiverDef[defName = "DoctorFeedHumanlikes"]/workType</xpath>
+    <value>
+      <workType>Nursing</workType>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/WorkGiverDef[defName = "DoctorFeedAnimals"]/workType</xpath>
+    <value>
+      <workType>Nursing</workType>
+    </value>
+  </Operation>
+
+  <!-- Rearming -->
 	
 	<Operation Class="PatchOperationReplace">
 		<xpath>*/WorkGiverDef[defName = "RearmTurrets"]/workType</xpath>
