@@ -87,23 +87,6 @@
 		</requiredCapacities>
 	</WorkGiverDef>
 	
-	<WorkGiverDef>
-		<defName>JS_ButcherDoBillsButcherFlesh</defName>
-		<label>butcher creatures</label>
-		<giverClass>WorkGiver_DoBill</giverClass>
-		<workType>Butchering</workType>
-		<priorityInType>88</priorityInType>
-		<fixedBillGiverDefs>
-		  <li>TableButcher</li>
-		</fixedBillGiverDefs>
-		<verb>butcher</verb>
-		<gerund>butchering at</gerund>
-		<requiredCapacities>
-		  <li>Manipulation</li>
-		</requiredCapacities>
-		<prioritizeSustains>true</prioritizeSustains>
-	</WorkGiverDef>
-	
 	<!-- Repairing -->	
 	
 	<WorkGiverDef>

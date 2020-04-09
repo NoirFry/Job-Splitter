@@ -24,7 +24,7 @@
 		</value>
 	</Operation>
 
-  <!-- Surgeon -->
+  <!-- Nursing -->
 
   <Operation Class="PatchOperationReplace">
     <xpath>*/WorkGiverDef[defName = "DoctorFeedHumanlikes"]/workType</xpath>
@@ -37,6 +37,15 @@
     <xpath>*/WorkGiverDef[defName = "DoctorFeedAnimals"]/workType</xpath>
     <value>
       <workType>Nursing</workType>
+    </value>
+  </Operation>
+
+  <!-- Butchering -->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/WorkGiverDef[defName = "DoBillsButcherFlesh"]/workType</xpath>
+    <value>
+      <workType>Butchering</workType>
     </value>
   </Operation>
 
